@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>carvilla</title>
+  <link rel="icon" type="image/x-icon" href="../../carvilla-v1.0/assets/logo/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,88.8,379;1,88.8,379&display=swap"
+    rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: url(../../carvilla-v1.0/assets/images/welcome-hero/welcome-banner.jpg) no-repeat center;
+      background-size: cover;
+      height: 1100px;
+      position: relative;
+      z-index: 0;
+    }
+
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+      font-weight: 700;
+      color: white;
+    }
+
+
+
+
+    .body {
+      font-family: "Roboto", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+
+
+    .nav-bar {
+      background-color: black;
+      color: #fff;
+      padding: 1em;
+    }
+
+    .navbar-brand {
+      position: relative;
+      left: -30px;
+    }
+
+    .div1 ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav2 {
+      color: #fff;
+    }
+
+    .nav2:hover {
+      color: #4e4ffa;
+    }
+
+    .div1 li {
+      display: inline-block;
+      margin-right: 50px;
+    }
+
+    .div1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .carvilla {
+      font-size: 24px;
+      padding-left: 30px 0px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      display: inline-block;
+      line-height: 20px;
+    }
+
+    .linkn1 {
+      font-size: 14px;
+    }
+
+
+
+
+
+    /*
+#section{background-color: #a91212; color: black;position:relative; height: 300px;left: 15%; width: 70%; text-align: center; 
+  border: black 1px solid;    display: inline-block;}
+.divsection{display: inline-block;background-color: #4e4ffa;padding-left: 10%;}
+.content0{display: inline-block;}*/
+
+
+
+
+
+
+    #section {
+      background-color: white;
+      color: black;
+      position: relative;
+      bottom: 520px;
+      height: 300px;
+      left: 10%;
+      width: 80%;
+      text-align: center;
+      border: 1px solid black;
+    }
+
+    .col-lg-3col-md-3col-sm-12 {
+      display: inline-block;
+    }
+
+    .form-label {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: small;
+    }
+
+    .form-select {
+      width: 80%;
+      height: 50px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #f8f8f8;
+      display: inline-block;
+      background-color: #f8f8f8;
+      ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #section2 {
+      background-color: #fff;
+      position: relative;
+      bottom: 520px;
+      height: 500px;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .div2 {
+      background-color: #fff;
+      color: black;
+      position: relative;
+      left: 10%;
+      height: 400px;
+      width: 25%;
+      margin: 10% 1% 10% 1%;
+      display: inline-block;
+      text-align: center;
+      border: 1px solid #dadfe9;
+      border-radius: 3px;
+    }
+
+    .div2:hover {
+      background-color: #4e4ffa;
+      color: #fff;
+    }
+
+    .colorhover:hover {
+      color: white;
+    }
+
+    a.content {
+      text-decoration: none;
+    }
+
+    .content {
+      position: relative;
+      top: 20%;
+    }
+
+
+
+    .small-hr {
+      width: 7%;
+      border: none;
+      border-bottom: 2px solid #4e4ffa;
+      margin: -100px auto;
+
+    }
+
+
+
+
+
+
+
+    #section3 {
+      background-color: #f8f9fb;
+      position: relative;
+      top: 100px;
+      height: 600px;
+      width: 100%;
+    }
+
+    .div31 {
+      background-color: white;
+      color: black;
+      text-align: center;
+      height: 400px;
+      width: 25%;
+      margin: 0 0 0 38%;
+    }
+
+    .content31 {
+      position: relative;
+      top: 65%;
+      font-size: 36px;
+      text-transform: capitalize;
+    }
+
+    .div32 {
+      background-color: #fafcff;
+      color: #aeafc2;
+      position: relative;
+      left: 10%;
+      height: 400px;
+      width: 25%;
+      margin: 0 1% 10% 1%;
+      display: inline-block;
+      text-align: center;
+      border: 1px solid #dadfe9;
+      border-radius: 3px;
+    }
+
+    .content32 {
+      position: relative;
+      top: 20%;
+      font-size: large;
+    }
+
+    a.content32 {
+      text-decoration: none;
+      color: #505568;
+    }
+
+    .div32:hover {
+      background-color: #4e4ffa;
+      color: #fff !important;
+    }
+
+    hr.content31 {
+
+      border: none;
+      border-top: 3px solid blue;
+      margin: 20px auto;
+      width: 30%;
+
+    }
+
+
+
+
+
+
+
+
+    #section5 {
+      background-color: #f6eeee;
+      margin-top: -400px;
+
+      height: 700px;
+      padding: 150px;
+    }
+
+    .div51 {
+      text-align: center;
+      width: 25%;
+      margin: auto;
+      position: relative;
+      bottom: 15%;
+    }
+
+    h1.content51 {
+      text-transform: capitalize;
+      color: #313440;
+      font-size: 36px;
+    }
+
+    h3.content51 {
+      text-transform: capitalize;
+      color: #666c81;
+      font-size: 16px;
+    }
+
+    hr.content51 {
+      border: none;
+      border-top: 3px solid blue;
+      margin: 20px auto;
+      width: 30%;
+
+    }
+
+    .div52 {
+      position: relative;
+      left: 10%;
+      display: inline;
+      float: left;
+      width: 50%;
+      text-align: left;
+      lllll
+    }
+
+    .content52 {
+      display: inline-block;
+      color: #aeafc2;
+    }
+
+    a.content52 {
+      color: #313440;
+      text-decoration: none;
+      font-size: 32px;
+    }
+
+    button.content52 {
+      color: white;
+      background-color: #4e4ffa;
+      border: white;
+      text-align: center;
+      height: 60px;
+      width: 200px;
+      margin-top: 55px;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #featured-cars {
+      background-color: #fff;
+      padding: 100px;
+      height: 900px;
+    }
+
+    .div61 {
+      text-align: center;
+      width: 25%;
+      margin: auto;
+      position: relative;
+      bottom: 15%;
+    }
+
+    h3.content61 {
+      text-transform: capitalize;
+      color: #666c81;
+      font-size: 16px;
+    }
+
+    h1.content61 {
+      text-transform: capitalize;
+      color: #313440;
+      font-size: 36px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-img-top {
+      width: 70%;
+      height: 100px;
+      position: relative;
+      top: 30%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin: auto;
+    }
+
+    .card-body {
+      padding: 10px;
+      position: relative;
+      top: 50%;
+    }
+
+    .card-text {
+      font-size: 14px;
+      color: #666;
+    }
+
+    hr {
+      margin: 0;
+      border: none;
+      border-top: 3px solid blue;
+      position: relative;
+      top: 50%;
+
+    }
+
+    .img-fluid {
+      width: 70%;
+      height: 100px;
+      margin: auto;
+      border-radius: 10px;
+      position: relative;
+      top: 30%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #section4 {
+      background-color: #fff;
+      position: relative;
+      height: 300px;
+      width: 100%;
+    }
+
+    .div41 {
+      background-color: #fff;
+      text-align: center;
+      height: 100px;
+      width: 10%;
+      display: inline-block;
+      margin: 6% 0% 5% 5%;
+      position: relative;
+      left: 5%;
+    }
+
+    .content41 {
+      font-size: larger;
+      text-transform: capitalize;
+      display: block;
+    }
+
+
+
+
+
+
+
+
+    #footer {
+      background-color: #2a2d54;
+      height: 600px;
+      border: #2a2d54 3px solid;
+    }
+
+    .divfooter1 {
+      position: relative;
+      height: 250px;
+      width: 13%;
+      text-align: center;
+      margin: 5% 0 0% 5%;
+      left: 5%;
+      display: inline-block;
+    }
+
+    .linkf1 {
+      display: inline-block;
+      padding-top: 10%;
+      text-align: left;
+
+    }
+
+    h1.linkf1 {
+      font-family: "Roboto", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+
+    a.linkf1 {
+      color: #aeafc2;
+      list-style: none;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    h6.linkf1 {
+      font-family: "Roboto", serif;
+      font-optical-sizing: auto;
+      font-weight: 379;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 88.8;
+    }
+
+    /*.linkf2{display: inline-block;}*/
+    li.linkf1 {
+      color: #cfd0db;
+      font-size: 14px;
+      list-style: none;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    /* a.linkf2{color: #cfd0e3; font-size: 14px; text-decoration: none;}   */
+
+    .end {
+      margin-top: 8%;
+    }
+
+    hr.end {
+      margin-top: 2%;
+      width: 85%;
+      color: white;
+      margin-left: 10%;
+    }
+
+    p.end {
+      position: relative;
+      left: 10%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-black bg-black">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+          <nav class="navbar bg-black-body-tertiary">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 ">
+                  <h1 class="navbar-brand "><a class="navbar-brand "
+                      style="color: #fff; font-size: larger;">CARVILLA</a></h1>
+                </div>
+              </div>
+          </nav>
+        </div>
+
+        <div class="col-lg-7 col-md-0 col-sm-0 ">
+          <ul class="nav justify-content">
+            <li class="nav-item">
+              <a class="nav-link nav2" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav2" href="#">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav2" href="#">FEATURED CARS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav2" href="#">NEW CARS</a>
+            </li>
+            <a class="nav-link nav2" href="#"> BRANDS</a>
+            </li>
+            <a class="nav-link nav2" href="#">CONTACT</a>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    </nav>
+    <div class="hero-image">
+      <img src="../../carvilla-v1.0/assets/images/welcome-banner.jpg" alt="welcome-banner.jpg" width="100%">
+    </div>
+    <div class="hero-text">
+      <pre><h2> GET YOUR DESIRED CAR IN RESONABLE PRICE</h2></pre>
+
+
+
+      <pre style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+     incididunt ut labore et dolore magna aliqua.</pre>
+
+      <button style="display: inline-block; color:white; background-color: #4e4ffa;border: white;
+     text-align: center; height: 60px; width: 230px; margin-top: 55px; border-radius: 3px;font-size: 16px;"> Contact Us
+      </button>
+
+    </div>
+
+
+
+
+    <section id="section">
+
+      <form class="row g-3 ">
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Select Year</h2>
+          </label>
+          <select class="form-select " id="validationCustom04" required>
+            <option value="Year">Year</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Select Make</h2>
+          </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="Make">Make</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Holden">Holden</option>
+            <option value="Maecedes-1">Maecedes-1</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Select Model</h2>
+          </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="Model">Model</option>
+            <option value="Kia-Rio">Kia-Rio</option>
+            <option value="Mitsubishi">Mitsubishi</option>
+            <option value="Ford">Ford</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <button class="float-end"
+          style="display: inline-block; color:white; background-color: #4e4ffa;border: white;
+     text-align: center; height: 60px; width: 200px; margin-right: 5%; margin-top: 75px; border-radius: 3px;font-size: 20px;"> Search
+        </button>
+
+
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Body Style</h2>
+          </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="Style">Style</option>
+            <option value="Sedan">Sedan</option>
+            <option value="Van">Van</option>
+            <option value="Roadster">Roadster</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Car Condition</h2>
+          </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="Condition">Condition</option>
+            <option value="Something">Something</option>
+            <option value="Something">Something</option>
+            <option value="Something">Something</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <label for="validationCustom01" class="form-label">
+            <h2>Select Price</h2>
+          </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option value="Price">Price</option>
+            <option value="$0.00">$0.00</option>
+            <option value="$0.00">$0.00</option>
+            <option value="$0.00">$0.00</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+
+
+    </section>
+
+  </header>
+
+
+
+
+
+  <section id="section2">
+
+    <div class="row ">
+      <div class="col-lg-4 col-md-6 col-sm-12 div2 colorhover">
+        <img class="content" src="../../carvilla-v1.0/assets/car.png" alt="car.png" width="70"><br>
+        <h2 class="content "><a class="content colorhover" href="file:///D:/frontend/carvilla-v1.0/index.html#">largest
+            dealership of car</a></h2>
+        <span class="content">Nemo enim ipsam voluptatem quia <br>
+          voluptas sit aspernatur aut <br>odit
+          aut den fugit sed quia.</span><br><br>
+        <hr class="small-hr">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 div2 colorhover">
+        <img class="content" src="../../carvilla-v1.0/assets/service.png" alt="service.png" width="70"><br>
+        <h2 class="content"><a class="content colorhover" href="file:///D:/frontend/carvilla-v1.0/index.html#">unlimited
+            repair warrenty</a></h2>
+        <span class="content">Nemo enim ipsam voluptatem quia <br>
+          voluptas sit aspernatur aut <br>odit
+          aut den fugit sed quia.</span><br><br>
+        <hr class="small-hr">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 div2 colorhover">
+        <img class="content" src="../../carvilla-v1.0/assets/service (1).png" alt="service (1).png" width="70"><br>
+        <h2 class="content"><a class="content colorhover" href="file:///D:/frontend/carvilla-v1.0/index.html#" ">insurence support</a></h2>
+        <span class=" content">Nemo enim ipsam voluptatem quia <br>
+            voluptas sit aspernatur aut <br> odit
+            aut den fugit sed quia.</span><br><br>
+            <hr class="small-hr">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="section5">
+    <div class="div51">
+      <h3 class="content51">checkout the latest cars</h3>
+      <h1 class="content51">newest cars</h1>
+      <hr class="content51">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src=" ../../carvilla-v1.0/assets/images/new-cars-model/ncm1.png" class="d-block w-100"
+                  alt="ncm1.png">
+              </div>
+              <div class="carousel-item">
+                <img src="../../carvilla-v1.0/assets/images/new-cars-model/ncm2.png" class="d-block w-100"
+                  alt="ncm2.png">
+              </div>
+              <div class="carousel-item">
+                <img src="../../carvilla-v1.0/assets/images/new-cars-model/ncm3.png" class="d-block w-100"
+                  alt="ncm3.png">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+
+          <div class="text-center">
+            <h1 class="content52"><a href="file:///D:/frontend/carvilla-v1.0/index.html#" class="content52">BMW Series-3
+                Wagon</a></h1><br>
+            <span class="content52">Duis aute irure dolor in reprehenderit in voluptate<br>
+              velit esse cillum dolore eu fugiat nulla pariatur. <br>
+              Excepteur sint occaecat cupidatat non proident,sunt <br>
+              in culpa qui officia deserunt mollit anim id est <br>
+              laborum.</span>
+            <br>
+            <span class="content52">Sed ut pers unde omnis iste natus error sit <br>
+              voluptatem accusantium doloremque laudantium.
+            </span>
+            <br><br>
+            <button class="content52" style="color: white; background-color: blue;">View
+              Details</button><BR><BR></BR></BR><BR></BR>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="featured-cars">
+    <div class="container">
+      <div class="div61">
+        <h3 class="content61">checkout the featured cars</h3></a>
+        <h1 class="content61">featured cars</h1>
+        <hr class="content61">
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100 ">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc1.png" class="card-img-top " alt="fc1.png">
+            <hr class="my-0 ">
+            <div class="card-body ">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">BMW 6-Series Gran Coupe</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$89.395</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc2.png" class="card-img-top" alt="fc2.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">Lamborghini v520</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$125,250</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100 ">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc3.png" class="card-img-top" alt="fc3.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">Lamborghini v520</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$125,250</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc4.png" class="card-img-top" alt="fc4.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">Audi A3 Sedan</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$95.500</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100 ">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc5.png" class="img-fluid" alt="fc5.png "
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">Infiniti Z5</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$36.850</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100 ">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc6.png" class="img-fluid" alt="fc6.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">Porsche 718 Cayman</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$48.500</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc7.png" class="img-fluid" alt="fc7.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">BMW 8-Series Coupe</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$56.000</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 g-4">
+          <div class="card h-100">
+            <img src="../../carvilla-v1.0/assets/images/featured-cars/fc8.png" class="img-fluid" alt="fc8.png"
+              width="50px" height="50px">
+            <hr class="my-0">
+            <div class="card-body">
+              <p class="card-text">model: 2017 3100 mi 240HP <br>automatic.</p>
+            </div>
+          </div>
+          <a href="#" class="card-link">BMW Xseries-6</a>
+          <h6 class="card-subtitle mb-2 text-body-secondary">$75.800</h6>
+          <p class="mt-3">Neque porro quisquam est, qui dolorem <br> ipsum quia dolor sit amet, consectetur,
+            <br>adipisci velit,
+            sed quia non.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <br><br><br><br><br>
+
+
+
+  <section id=" section3">
+
+    <div class="div31">
+      <h1 class="content31">what our clients say</h1><br>
+      <hr class="content31">
+    </div><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 div32">
+          <img class="content32" src="../../carvilla-v1.0/assets/images/c1.png" alt="c1.png"><br><br>
+          <span class="content32">
+            Sed ut pers unde omnis iste natus <br>
+            error sit voluptatem accusantium <br>
+            dolor laudan rem aperiam, eaque <br>
+            ipsa quae ab illo inventore verit.
+          </span><br><br>
+          <h5 class="content32" style="color: #666c81;"><a class="content32"
+              href="file:///D:/frontend/carvilla-v1.0/index.html#">Tomas Lili</a></h5>
+          <h5 class="content32" style="color: #666c81;">New York</h5>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 div32">
+          <img class="content32" src="../../carvilla-v1.0/assets/images/c2.png" alt="c2.png"><br><br>
+          <span class="content32">
+            Sed ut pers unde omnis iste natus <br>
+            error sit voluptatem accusantium <br>
+            dolor laudan rem aperiam, eaque <br>
+            ipsa quae ab illo inventore verit.
+          </span><br><br>
+          <h5 class="content32" style="color: #666c81;"><a class="content32"
+              href="file:///D:/frontend/carvilla-v1.0/index.html#">Romi Rain</a></h5>
+          <h5 class="content32" style="color: #666c81;">London</h5>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 div32">
+          <img class="content32" src="../../carvilla-v1.0/assets/images/c3.png" alt="c3.png"><br><br>
+          <span class="content32">
+            Sed ut pers unde omnis iste natus <br>
+            error sit voluptatem accusantium <br>
+            dolor laudan rem aperiam, eaque <br>
+            ipsa quae ab illo inventore verit.
+          </span><br><br>
+          <h5 class="content32" style="color: #666c81;"><a class="content32"
+              href="file:///D:/frontend/carvilla-v1.0/index.html#">John Doe</a></h5>
+          <h5 class="content32" style="color: #666c81;">Washington</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+
+  <section id="section4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br1.png" alt="br1.png" width="100"></a>
+          </h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br2.png" alt="br2.png" width="100"></a>
+          </h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br3.png" alt="br3.png" width="100"></a>
+          </h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br4.png" alt="br4.png" width="100"></a>
+          </h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br5.png" alt="br5.png" width="100"></a>
+          </h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-ms-6 g-4 div41">
+          <h1 class="content41"> <a class="content41" href="file:///D:/frontend/carvilla-v1.0/index.html#"><img
+                class="content41" src="../../carvilla-v1.0/assets/images/brand/br6.png" alt="br6.png" width="100"></a>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-ms-12 divfooter1">
+          <a href="../../file:///D:/frontend/carvilla-v1.0/index.html" class="linkf1" style="color: #fff ;">
+            <h1>CARVILLA</h1>
+          </a>
+          <p class="linkf1" style="color:#eeeff6 ; font-size: 14px;">
+            Ased do eiusm tempor incidi ut <br> labore et dolore magnaian aliqua. Ut <br> enim ad minim veniam.
+          </p>
+          <p class="linkf1" style="color:#eeeff6 ; font-size: 14px;">
+            info@themesine.com <br>
+            +1 (885) 2563154554
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 col-ms-12 divfooter1">
+          <ul class="linkf1">
+            <h6 class="linkf1" style="color: #fff;">ABOUT DEVLOON</h6>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">About us</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">Career</a>
+            </li>
+            <br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">Terms of
+                service</a></li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">Privacy
+                Policy</a></li><br>
+
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-ms-6 divfooter1">
+
+          <ul class="linkf1">
+            <h6 class="linkf1" style="color: #fff;">TOP BRANDS</h6>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">BMW</a>
+            </li>
+            <br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#"
+                class="linkf1">lamborghini</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">camaro</a>
+            </li>
+            <br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">Audi</a>
+            </li>
+            <br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">infiniti</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">nissan</a>
+            </li>
+          </ul>
+        </div><br><br><br>
+        <div class="col-lg-2 col-md-6 col-ms-6  divfooter1 foot">
+          <ul class="linkf1">
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">ferrari</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">porsche</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">land
+                rover</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">aston
+                martin</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">mersedes</a>
+            </li><br>
+            <li class="linkf1"><a href="../../file:///D:/frontend/carvilla-v1.0/index.html#" class="linkf1">opel</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="col-lg-3 col-md-12 col-ms-12 divfooter1">
+          <h class="linkf1" style="color: #fff;"> NEWS LETTER </h>
+          <P class="linkf1" style="color: #aeafc2; font-size: 14px;">
+            Subscribe to get latest news update <br> and informations
+          </P>
+          <button class="linkf1" style="color:#666c81 ; font-size: 12px; background-color:#26294d ;">Add Email</button>
+        </div><br><br><br><br><br>
+
+        <div class="end">
+          <hr class="end">
+          <p class="end" Style="color: #cfd0e3;" font-size: 14px;>
+            © copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
+          </p>
+        </div>
+        
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-facebook" width="30% " style="color: #8d2b2b;"></i></a>	
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa-brands fa-behance"></i></a>	
+        </div>
+        
+       
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
